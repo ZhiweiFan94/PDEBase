@@ -1,3 +1,5 @@
+NLSE simulations with and without third-order-dispersion under 400 different inputs. It contains typical behaviors like soliton, breather, splitting-merging effect and Cherenkov radiations.
+
 To download the dataset: Fan, Z. (2025). NLSE_W/WO_TOD_400samples [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15164573
 
 

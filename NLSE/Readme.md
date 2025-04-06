@@ -1,3 +1,6 @@
+To download the dataset: Fan, Z. (2025). NLSE_W/WO_TOD_400samples [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15164573
+
+
 To use the data, copy and run the code below:
 
 ```python

@@ -1,3 +1,5 @@
+## Dataset
+
 NLSE simulations with and without third-order-dispersion under 400 different inputs. It contains typical behaviors like soliton, breather, splitting-merging effect and Cherenkov radiations.
 
 To download the dataset: Fan, Z. (2025). NLSE_W/WO_TOD_400samples [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15164573
@@ -5,7 +7,7 @@ To download the dataset: Fan, Z. (2025). NLSE_W/WO_TOD_400samples [Data set]. Ze
 The governing equation describes typical soliton solutions with third-order dispersion(TOD).
 
 
-# Extended Nonlinear Schrödinger Equation with Third-Order Dispersion
+## Extended Nonlinear Schrödinger Equation with Third-Order Dispersion
 
 In our work, we consider an extended form of the nonlinear Schrödinger equation (NLSE) that includes a third-order dispersion (TOD) term to capture effects such as Cherenkov radiation. The equation is written as:
 
@@ -36,8 +38,7 @@ $$
 
 where we identify $$A$$ with the amplitude and $$W$$ as the inverse width (ideally,  $$W \approx A$$).
 
-
-where we can identify the amplitude $$A$$ and the inverse width $$W$$ (ideally one often expects $$W \approx A$$. In our data generation, we sample $$A$$ and $$W$$ from predetermined ranges (see below) such that the initial condition better reflects a recognizable soliton structure.
+In our data generation, we sample $$A$$ and $$W$$ from predetermined ranges (see below) such that the initial condition better reflects a recognizable soliton structure.
 
 
 

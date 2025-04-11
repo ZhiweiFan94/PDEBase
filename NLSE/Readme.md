@@ -49,3 +49,5 @@ plt.colorbar(label='|ψ(x)|')
 plt.grid()
 plt.show()
 ```
+
+![Example](NLSE/cases_11.png)

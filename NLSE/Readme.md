@@ -9,20 +9,20 @@ To use the data, copy and run the code below:
 import h5py
 import numpy as np
 
-# 打开 HDF5 文件（只读模式）
+# Open HDF5 file
 filename = "one_soliton_TOD_dataset.h5"
 with h5py.File(filename, "r") as f:
-    # 查看文件中有哪些数据集
+    # check the dataset
     print("Datasets in file:", list(f.keys()))
     
     # 读取各个数据集
-    x = f["x"][:]      # 空间网格，形状 (Nx,)
-    t = f["t"][:]      # 时间序列，形状 (Nt,)
-    u0 = f["u0"][:]    # 初始条件，形状 (num_samples, Nx)，复数数组
-    sol = f["sol"][:]  # 全时域解，形状 (num_samples, Nt, Nx)，复数数组
-    params = f["params"][:]  # 随机参数，形状 (num_samples, 8)，复数数组
+    x = f["x"][:]      # spatial grid, size (Nx,)
+    t = f["t"][:]      # temporal grid，size (Nt,)
+    u0 = f["u0"][:]    # initial condition，size (num_samples, Nx)，complex numbers
+    sol = f["sol"][:]  # solution，size (num_samples, Nt, Nx)，complex numbers
+    params = f["params"][:]  # paras，size (num_samples, 8)，complex numbers
 
-# 用 x、t、u0、sol、params 进行后续处理或绘图
+# check x、t、u0、sol、params variables
 print("x shape:", x.shape)
 print("t shape:", t.shape)
 print("u0 shape:", u0.shape)
@@ -49,5 +49,5 @@ plt.colorbar(label='|ψ(x)|')
 plt.grid()
 plt.show()
 ```
-
-![Example](NLSE/cases_11.png)
+Below displays a set of typical examples for NLSE dynamics:
+![NLSE/cases_11.png](https://github.com/ZhiweiFan94/PDEBase/blob/main/NLSE/cases_11.png)

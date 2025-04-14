@@ -12,7 +12,7 @@ The governing equation describes the viscous Burgers equation.
 In our work, we consider the following viscous Burgers equation:
 
 $$
-u_t + u\,u_x = \nu\,u_{xx},
+u_t + u u_x = \nu u_{xx},
 $$
 
 where:

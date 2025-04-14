@@ -3,7 +3,7 @@
 Burgers equation simulations with two different viscosity coefficients under 400 different inputs. This dataset contains typical behaviors such as shock formation, smooth transitions, and rarefaction waves. The localized initial conditions yield noticeable nonlinear dynamics that resemble shock-like features.
 
 To download the dataset:  
-Fan, Z. (2025). Burgers_RandomShock_400samples [Data set]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXXX
+Fan, Z. (2025). Burgers_RandomShock_400samples [Data set]. Zenodo. https://doi.org/zenodo.XXXXXXXX
 
 The governing equation describes the viscous Burgers equation.
 
